@@ -1,3 +1,4 @@
 # logi-skill-transfer
 
-This repository contains the documentation and assets for skill transfer and logistics DX automation case studies.
+Documentation and assets for logistics skill transfer and DX automation.
+Includes Excel DB and Notion dashboard screenshot for visualization.

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang='ja'>
+<head>
+<meta charset='UTF-8'>
+<title>Excel抽出 業務内容一覧</title>
+<style>
+    body { font-family: Meiryo, 'メイリオ', Osaka, 'MS PGothic', sans-serif; margin:20px; background:#fff; color:#222; }
+    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; }
+    th { background-color: #4CAF50; color: white; }
+    td, th { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
+    tr:nth-child(even) {background-color: #f9f9f9;}
+</style>
+</head>
+<body>
+<h1>業務内容一覧</h1>
+<table border='1' cellspacing='0' cellpadding='5'>
+<tr><th>セクション</th><th>内容</th></tr><tr style='background-color:#cce5ff; font-weight:bold;'><td colspan='2'>① 倉庫業務の業務効率化・自動化支援</td></tr>
+<tr><td>背景・課題</td><td>初期は手書きの出荷明細作成、品番のExcel入力といった手作業中心の業務運用業務の属人化・ヒューマンエラー・在庫管理の精度低下が課題</td></tr>
+<tr><td>実施内容①</td><td>出荷・在庫登録の自動化（GAS＋Google Sheets）</td></tr>
+<tr><td>実施内容②</td><td>Notionで誰でも在庫を確認できるボタン付きダッシュボード構築</td></tr>
+<tr><td>成果</td><td>出荷登録の作業時間を約70%削減、データの抜け漏れ解消、在庫の透明性向上</td></tr>
+<tr style='background-color:#cce5ff; font-weight:bold;'><td colspan='2'>② 繊維工場への物流業務委託時の構築支援</td></tr>
+<tr><td>実施内容①</td><td>百貨店コードをGASで自動生成（命名規則化）</td></tr>
+<tr><td>実施内容②</td><td>値札データ自動生成→SATO機器へ印刷（GAS）</td></tr>
+<tr><td>実施内容③</td><td>出荷/入荷情報をNotionで公開</td></tr>
+<tr><td>実施内容④</td><td>店舗からのオーダーをLINE BOTで受付・自動転記（GAS連携）</td></tr>
+<tr><td>成果</td><td>出荷準備業務の大幅効率化、LINEでの注文により業務負荷を軽減</td></tr>
+<tr style='background-color:#cce5ff; font-weight:bold;'><td colspan='2'>③ 生産管理・原価管理の可視化支援（Notion）</td></tr>
+<tr><td>背景</td><td>Excel中心の管理で更新漏れ・重複入力・見落としリスク</td></tr>
+<tr><td>実施内容①</td><td>現状のExcel入力を維持しつつ、GASで変更を検知</td></tr>
+<tr><td>実施内容②</td><td>Notion DBにリアルタイム反映し、原価・納品タイミングを視覚化</td></tr>
+<tr><td>実施内容③</td><td>データ履歴を記録、過去変更も追跡可</td></tr>
+<tr><td>成果</td><td>原価や納期変更の即時可視化、関係部署間の情報連携がスムーズに、月次資料作成を半減化</td></tr>
+<tr style='background-color:#cce5ff; font-weight:bold;'><td colspan='2'>④ スキルトランスファー（技術移転）対応</td></tr>
+<tr><td>内容①</td><td>GAS・Notion等の操作マニュアル作成</td></tr>
+<tr><td>内容②</td><td>担当者向けレクチャー／動画 or 対面での説明会実施</td></tr>
+<tr><td>内容③</td><td>システム構成図やAPI連携図の作成</td></tr>
+<tr><td>内容④</td><td>日常業務へ落とし込むチェックリスト整備</td></tr>
+<tr><td>使用技術・ツール一覧</td><td>Google Apps Script（GAS）、Notion API、Google Sheets、Python、LINE BOT、SATOプリンタ、Slack通知など</td></tr>
+</table>
+<h2 style='margin-top:40px; text-align:center;'>ノーション実装例</h2>
+<div style='display:flex; gap:15px; justify-content:center; margin-top:15px;'><div style='flex:1; max-width:300px;'><img src='images/img1.png' alt='img1.png' style='width:100%; height:auto; border:1px solid #ccc; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.1);' /></div>
+<div style='flex:1; max-width:300px;'><img src='images/img2.png' alt='img2.png' style='width:100%; height:auto; border:1px solid #ccc; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.1);' /></div>
+<div style='flex:1; max-width:300px;'><img src='images/img3.png' alt='img3.png' style='width:100%; height:auto; border:1px solid #ccc; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.1);' /></div>
+</div>
+
+</body>
+</html>
