@@ -283,5 +283,18 @@
     </a>
   </div>
 </div>
+
+<script>
+function toggleDetail(id) {
+  const elem = document.getElementById(id);
+  if (!elem) return;
+  if (elem.style.display === 'block') {
+    elem.style.display = 'none';
+  } else {
+    elem.style.display = 'block';
+  }
+}
+</script>
+
 </body>
 </html>
